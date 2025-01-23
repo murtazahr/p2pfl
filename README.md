@@ -20,7 +20,7 @@
 | p2pfl/communication/commands/message/stop\_learning\_command.py         |       22 |        7 |     68% |     54-64 |
 | p2pfl/communication/commands/message/vote\_train\_set\_command.py       |       24 |        2 |     92% |     69-74 |
 | p2pfl/communication/commands/weights/\_\_init\_\_.py                    |        0 |        0 |    100% |           |
-| p2pfl/communication/commands/weights/full\_model\_command.py            |       40 |       11 |     72% | 55, 77-89 |
+| p2pfl/communication/commands/weights/full\_model\_command.py            |       40 |       13 |     68% |55, 61-65, 77-89 |
 | p2pfl/communication/commands/weights/init\_model\_command.py            |       41 |       16 |     61% |55-56, 62-66, 70-74, 84-97 |
 | p2pfl/communication/commands/weights/partial\_model\_command.py         |       44 |       15 |     66% |67, 73-77, 81-82, 99-112 |
 | p2pfl/communication/protocols/\_\_init\_\_.py                           |        0 |        0 |    100% |           |
@@ -47,7 +47,7 @@
 | p2pfl/communication/protocols/memory/server\_singleton.py               |       16 |        1 |     94% |        43 |
 | p2pfl/communication/protocols/neighbors.py                              |       49 |        8 |     84% |50, 60, 71, 85-86, 93-95 |
 | p2pfl/examples/\_\_init\_\_.py                                          |        0 |        0 |    100% |           |
-| p2pfl/examples/mnist.py                                                 |      145 |      145 |      0% |    24-298 |
+| p2pfl/examples/mnist.py                                                 |      144 |      144 |      0% |    24-297 |
 | p2pfl/examples/node1.py                                                 |       19 |       19 |      0% |     25-60 |
 | p2pfl/examples/node2.py                                                 |       27 |       27 |      0% |     25-75 |
 | p2pfl/exceptions.py                                                     |        6 |        0 |    100% |           |
@@ -120,7 +120,7 @@
 | p2pfl/utils/singleton.py                                                |        7 |        0 |    100% |           |
 | p2pfl/utils/topologies.py                                               |       43 |        2 |     95% |     92-93 |
 | p2pfl/utils/utils.py                                                    |       58 |        5 |     91% |84, 96-97, 116, 139 |
-|                                                               **TOTAL** | **4092** | **1112** | **73%** |           |
+|                                                               **TOTAL** | **4091** | **1113** | **73%** |           |
 
 
 ## Setup coverage badge
